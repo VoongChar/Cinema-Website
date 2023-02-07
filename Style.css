@@ -1,0 +1,226 @@
+body{
+margin: 10px;
+padding: 20px;
+font-size: 13px;
+font-family: "Lucida Console", "Courier New", monospace;
+color:black;
+}
+
+body{background-color:#202020;}
+
+/* Main header style */
+/* Featured on every page */
+.header{
+    overflow: hidden;
+    background-color:white;
+}
+
+/* Header Titles */
+
+.header a{
+    margin-right: 8px;
+    display: flex;
+    float: left;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 3px;
+    }
+
+.header a:hover {
+background-color:crimson;
+border-radius: 4px;
+color: white;
+}
+
+ul li{ 
+float: right;
+display: inline-block
+}
+
+/* Logo in Header */
+
+.logo img{
+    float:left;
+    width: 450px;
+    height:auto;400px;
+    padding: 10px;
+    border-radius: 4px;
+    }
+
+
+    /* Box border style and columns for content pages */
+    * { 
+  box-sizing: border-box;
+  border-radius: 4px;
+  }
+
+.center{
+display: center;
+padding: 25px;
+font-size: 20px;
+width: auto;
+font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.column {
+    float: left;
+    width: 50.00%;
+    padding: 20px;
+  }
+  
+.right{
+    float: right;
+    width: 50.00%;
+    padding: 20px;
+  }
+
+  .thincolumn{
+    float: left;
+    width: 40.00%;
+    padding: 10px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    padding: 10px;
+  }
+  .card {
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+  }
+  
+  .thincard {
+    padding: 2px;
+    text-align: center;
+    background-color: white;
+  }
+
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+.footstyle{
+  color: tomato;
+}
+
+
+  /* Contact us page */
+  /* Submission form */
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid crimson;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid crimson;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=tel], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid crimson;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: crimson;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: crimson;
+  }
+
+
+  /* Now Screening and Coming now template for movies */
+
+div.gallery {
+  margin: 15px;
+  border: 2px solid #ccc;
+  float: left;
+  width: 355px;
+}
+
+div.gallery:hover {
+  border: 2px solid crimson;
+}
+
+div.gallery img {
+  width: 350px;
+  height: 500px;
+}
+
+.synopsis{
+  margin-bottom: 10px;
+  float: right;
+  padding: 10px;
+  width: 700px;
+  text-align: left;
+  background-color: white;
+}
+
+.comingsoon{
+  color: white;
+  padding:0;
+  text-align: center;
+  background-color: crimson;
+}
+
+/* Movie Booking template*/
+table, th, td {
+  background:white;
+  border: 2px solid crimson;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  border-spacing: 5px;
+}
+
+  /* Button template*/
+  /* Used on Thank you page */
+.btn {
+font-family: Lucida Console, Courier New, monospace;
+font-size: 30px;
+text-align: center;
+background-color: black;
+color: white;
+border: 0px;
+cursor: pointer;
+margin: 22px;
+padding: 0px;
+}
+
+
+.btn:hover {
+  color: crimson;
+  width: auto;
+}
+
